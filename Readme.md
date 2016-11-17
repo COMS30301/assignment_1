@@ -11,18 +11,23 @@ To get you started you are given the dataset loader and two functions:
 
 together with and an example how to use them.
 
-One thing you might want to do is to plot the decision boundaries. Lab3 showed how to do this for a linear classifier, but for other classifiers this can be a bit more involved. One way to visualise decision regions is to colour-code the predictions of the classifier over a mesh grid (see [link](http://scikit-learn.org/stable/auto_examples/neighbors/plot_classification.html#sphx-glr-auto-examples-neighbors-plot-classification-py) to NearestNeighbors in scikit-learn). Another possibility is to calculate posterior class probabilities over a mesh grid and draw a contour line at p=$\frac{1}{2}$ (see [link](http://matplotlib.org/examples/pylab_examples/contour_demo.html) to matplotlib contour demo).
+One thing you might want to do is to plot the decision boundaries. Lab3 showed how to do this for a linear classifier, but for other classifiers this can be a bit more involved. One way to visualise decision regions is to colour-code the predictions of the classifier over a mesh grid (see [link](http://scikit-learn.org/stable/auto_examples/neighbors/plot_classification.html#sphx-glr-auto-examples-neighbors-plot-classification-py) to NearestNeighbors in scikit-learn). Another possibility is to calculate posterior class probabilities over a mesh grid and draw a contour line at p=1/2 (see [link](http://matplotlib.org/examples/pylab_examples/contour_demo.html) to matplotlib contour demo).
 
 ## Marking criteria
 * 30% - develop one working solution;
 * 10% - support it with relevant plots and figures eg. data scatter plot with decision boundary, predictive accuracy;
+
 ---
+
 * 20% - develop another working solution of different type;
 * 10% - support it with relevant plots and figures eg. data scatter plot with decision boundary, predictive accuracy;
+
 ---
+
 * 10% - motivate your choices (5% per solution);
 * 10% - create a baseline for your dataset;
 * 10% - compare your results against each other (5%) and the baseline (5%).
+
 ---
 
 Please put all your working and comments in this Jupyter notebook and submit it as **the only** file with name `<your_candidate_number>.ipynb` eg. `12321.ipynb`. If you do not use this naming convention **20%** will be subtracted from your mark!
