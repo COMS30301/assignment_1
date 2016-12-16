@@ -30,4 +30,29 @@ One thing you might want to do is to plot the decision boundaries. Lab3 showed h
 
 ---
 
-Please put all your working and comments in this Jupyter notebook and submit it as **the only** file with name `<your_candidate_number>.ipynb` eg. `12321.ipynb`. If you do not use this naming convention **20%** will be subtracted from your mark!
+Please put all your working and comments in this Jupyter notebook and submit it as **the only** file with name `<your_candidate_number>.ipynb` eg. `12321.ipynb`. If you do not use this naming convention **10%** will be subtracted from your mark!  
+Your candidate number can be found on your [FEN](https://wwwa.fen.bris.ac.uk/coms/index.jsp) **profile** next to *Candidate:* keyword.
+
+## Requirements
+### Python version
+This coursework must be completed using `Python 2.x.x`. If you have troubles running Python on any of the MVB 2.11 lab machines please execute the following command first:
+```
+export PATH=/opt/anaconda/python2/bin:$PATH
+```
+
+All submissions that use `Python 3.x.x` will be given 0 marks.
+
+### Running the code on Windows
+If you want to run the notebook on Windows machine you need to replace the line:
+```
+mnist = fetch_mldata('MNIST original')
+```
+
+with:
+```
+mnist = fetch_mldata('MNIST original', data_home='***')
+```
+
+where `***` should be replaced with location where the dataset will be stored.
+
+**Before submission please make sure that the code runs on MVB 2.11 lab machines!** If it doesn't you will be given 0 marks.
